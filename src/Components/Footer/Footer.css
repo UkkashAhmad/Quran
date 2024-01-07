@@ -1,0 +1,17 @@
+/* Add custom styles to the footer */
+footer {
+    padding-top: 30px;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #007bff; /* Change to your preferred link hover color */
+    text-decoration: none;
+}
+.RTL{
+    direction: rtl;
+}

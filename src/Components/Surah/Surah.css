@@ -1,0 +1,52 @@
+
+  
+  .quran-text {
+    background-color: #fff; /* Set background color for the text area */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .page-content {
+    /* Add styling for the Quranic text content */
+  }
+  
+  .page-navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 20px; /* Adjust the padding for spacing */
+  }
+  
+  /* Style the arrow buttons as needed */
+  .quran-line {
+    border-bottom: 1px solid #ddd; /* Add a light border to the bottom of each line */
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5px 0; /* Optional padding for spacing */
+    color: black;
+  }
+  .RTL{
+    direction: rtl;
+  }
+    

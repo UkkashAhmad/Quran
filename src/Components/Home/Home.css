@@ -1,0 +1,89 @@
+.RTL{
+    direction: rtl;
+}
+.bg{
+    width: 100%;
+height: 100vh;
+background-image: linear-gradient(rgba(42, 59, 133, 0.7),rgba(77, 48, 122, 0.7)),url(/src/IMGS/qurans.jpg);
+background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-size: cover;
+text-align: center;
+color: aliceblue;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+font-family: 'Your Custom Font', sans-serif;
+padding: 20px;
+}
+  
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(133, 117, 117);
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+
+  /* Define an animation keyframes */
+@keyframes slideIn {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to your elements */
+  h1, h3, p {
+    animation: slideIn 1s ease-out 0.5s forwards;
+  }
+  .bg2{
+    
+        background: url(/src/IMGS/bg2.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      
+  }
+  .card1{
+    background-image: url(/src/IMGS/tarjuma.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+  }
+  .card2{
+    background-image: url(/src/IMGS/juz.webp);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+   
+  }
+  .card4{
+    background-image: url(/src/IMGS/SUrah.jpeg);
+
+   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+   
+  .card3{
+    background-image: url(/src/IMGS/sajda.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+ 

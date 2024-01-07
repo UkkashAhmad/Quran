@@ -1,0 +1,32 @@
+/* Sajda.css */
+.sajda-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .sajda-header {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .sajda-item {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sajda-item h2 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .sajda-item p {
+    font-size: 30px;
+    color: #333;
+  }
+  .RTL{
+    direction: rtl;
+}    
